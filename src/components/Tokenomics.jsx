@@ -24,30 +24,30 @@ const Tokenomics = () => {
       <div className="container lg:w-1/2">
         <div>
           <h2 className='vt323-regular text-4xl'>$SHEGEN TOKENOMICS</h2>
-          <div className='flex items-center justify-between flex-wrap lg:gap-3'>
-            <div className="border-2 border-white rounded-lg overflow-hidden mt-6">
-              <div className="flex flex-wrap">
-                <span className="quantico-regular text-center text-sm lg:text-lg bg-white text-black px-4 py-2 font-bold w-full lg:w-fit">
+          <div className='flex items-center justify-between flex-wrap lg:flex-nowrap mt-6 lg:gap-1 w-full'>
+            <div className="border-2 border-white rounded-lg overflow-hidden">
+              <div className="flex flex-wrap lg:flex-nowrap">
+                <span className="quantico-regular text-center lg:text-start text-sm lg:text-lg bg-white text-black px-4 py-2 font-bold w-full lg:w-fit">
                   CIRCULATING SUPPLY
                 </span>
-                <span className="quantico-regular text-center text-sm lg:text-lg mx-auto px-14 py-2 flex-grow">
+                <span className="quantico-regular text-center lg:text-start text-sm lg:text-lg mx-auto px-8 py-2 flex-grow">
                   999,967,802 $SHEGEN
                 </span>
               </div>
             </div>
-            <div className="border-2 border-white rounded-lg overflow-hidden mt-6">
-              <div className="flex flex-wrap">
-                <span className="quantico-regular text-center text-sm lg:text-lg bg-white text-black px-4 py-2 font-bold w-full lg:w-fit">
+            <div className="border-2 border-white rounded-lg overflow-hidden mt-6 lg:mt-0">
+              <div className="flex flex-wrap lg:flex-nowrap">
+                <span className="quantico-regular text-center lg:text-start text-sm lg:text-lg bg-white text-black px-4 py-2 font-bold w-full lg:w-fit">
                   TOTAL SUPPLY
                 </span>
-                <span className="quantico-regular text-center text-sm lg:text-lg mx-auto px-14 py-2 flex-grow">
+                <span className="quantico-regular text-center lg:text-start text-sm lg:text-lg mx-auto px-8 py-2 flex-grow">
                   999,967,802 $SHEGEN
                 </span>
               </div>
             </div>
           </div>
           <div className="border-2 border-white rounded-lg overflow-hidden mt-6">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap lg:flex-nowrap">
               <span className="quantico-regular text-center text-sm lg:text-lg bg-white text-black px-4 py-2 font-bold w-full lg:w-fit">
                 MAX SUPPLY
               </span>

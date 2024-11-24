@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className="">
-      <ul className="vt323-regular flex items-center justify-center gap-4 md:gap-10 py-16 text-xl md:text-3xl">
+      <ul className="vt323-regular flex items-center justify-center gap-4 md:gap-10 py-6 lg:py-16 text-xl md:text-3xl">
         <li>
           <a to="#home" className="hover:text-[#97269f] transition-colors duration-200">
             HOME
