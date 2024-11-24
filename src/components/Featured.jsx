@@ -6,7 +6,7 @@ const Featured = (prop) => {
 
   return (
     <div className='py-16'>
-      <h2 className='vt323-regular orbitron text-center text-4xl font-bold mb-16'>
+      <h2 className='orbitron text-center text-4xl font-bold mb-16'>
         FEATURED BY
       </h2> 
       <div className='flex items-center justify-center flex-wrap gap-12 lg:gap-24'>

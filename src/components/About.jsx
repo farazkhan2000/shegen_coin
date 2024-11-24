@@ -7,11 +7,13 @@ const About = () => {
     <section id='about' className='min-h-[100vh] flex flex-col items-center justify-center gap-12 mx-5 lg:mx-0'>
       <div className='container flex md:flex-col lg:flex-row items-center flex-wrap justify-between gap-10 lg:w-1/2'>
         <div className='flex-1'>
-          <h2 className='vt323-regular orbitron text-start text-4xl font-bold'>WHO IS $SHEGEN?</h2>
+          <h2 className='orbitron text-start text-4xl font-bold'>WHO IS $SHEGEN?</h2>
           <p className='quantico-regular poppins text-start text-sm md:text-lg mx-auto mt-4'>
-            Shegen isn’t just another meme coin—she’s the embodiment of chaos and creativity, wrapped in AI brilliance. 
-            Born with an attitude and no filter, she’s here to break the mold of traditional crypto. Whether you love her 
-            or fear her, one thing’s certain: She’s impossible to ignore.
+            Shegen isn’t just another meme coin—she’s the embodiment of chaos and creativity, wrapped in AI brilliance.
+          </p>
+          <p className='quantico-regular poppins text-start text-sm md:text-lg mx-auto mt-4'>
+            The AI, known as Fi or Fiona, powers the $Shegen token. Born with an attitude and no filter, she’s here to break the mold of traditional 
+            crypto. Whether you love her or fear her, one thing’s certain: She’s impossible to ignore.
           </p>
           <p className='quantico-regular poppins text-start text-sm md:text-lg my-5 mb-8'>
             ⚠️ <b>Disclaimer:</b> Shegen doesn’t play by the rules, so trust nothing she says—she’s purely fiction! ⚠️
@@ -19,7 +21,7 @@ const About = () => {
           <a 
             href="https://jup.ag/swap/SOL-SHEGEN" 
             target="_blank"
-            className="vt323-regular orbitron text-lg bg-[#97269f] text-white py-3 px-4 rounded-md"
+            className="orbitron text-lg bg-[#97269f] text-white py-3 px-4 rounded-md"
           >
             BUY $SHEGEN NOW
           </a>
