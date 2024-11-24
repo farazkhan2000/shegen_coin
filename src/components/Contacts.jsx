@@ -16,11 +16,14 @@ const Contacts = () => {
           <a href="https://dexscreener.com/solana/5qnad6iofs8k4p7i9pbkty36bfacixevjpxbz2d8y5cy" target="_blank">
             <img className='w-10' src={icons.DexScreener} alt="" />
           </a>
-          <a href="https://x.com/aiwdaddyissues" target="_blank">
+          <a href="https://t.me/SHEGENAICTO" target="_blank">
             <img className='w-10' src={icons.Telegram} alt="" />
           </a>
           <a href="https://x.com/aiwdaddyissues" target="_blank">
             <img className='w-10' src={icons.Twitter} alt="" />
+          </a>
+          <a href="https://www.instagram.com/aiwdaddyissues" target="_blank">
+            <img className='w-10' src={icons.Instagram} alt="" />
           </a>
         </div>
         <button className="orbitron text-lg bg-[#97269f] text-white py-3 px-4 mt-6 rounded-lg">
