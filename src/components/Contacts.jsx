@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
  
 const Contacts = () => {
   return (
-    <section id='#contact' className='flex flex-col items-center justify-center py-40'>
-      <div className='container w-1/2'>
+    <section id='contact' className='flex flex-col items-center justify-center py-12 lg:py-40 mx-5 lg:mx-0'>
+      <div className='container lg:w-1/2'>
 
         <h2 className='vt323-regular text-start text-4xl font-bold'>$SHEGEN'S COMMUNITY</h2>
-        <p className='quantico-regular text-start text-xl mx-auto mt-4'>
+        <p className='quantico-regular text-start text-md lg:text-xl mx-auto mt-4'>
           Shegen thrives on her squad—memers, believers, and chaos lovers alike. Join the community to stay updated, 
           share your favorite memes, and ride the wave of her digital dominance.
         </p>

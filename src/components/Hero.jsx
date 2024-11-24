@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import { MdOutlineContentCopy } from "react-icons/md";
 import { images } from '../assets/images/assets';
 import { icons } from '../assets/icons/assets';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -23,13 +24,13 @@ const Hero = () => {
   }
 
   return (
-    <section className="min-h-[60vh] flex flex-col justify-center items-center gap-16">
-      <div className='flex justify-between items-center w-1/2'>
+    <section id='home' className="min-h-[100vh] lg:min-h-[60vh] flex flex-col justify-center items-center gap-16 mx-5 lg:mx-0">
+      <div className='flex justify-center lg:justify-between items-center flex-wrap gap-8 w-full lg:w-1/2'>
         <div className='flex-1'>
-          <h2 className='vt323-regular text-start text-4xl font-bold w-2/3'>
+          <h2 className='vt323-regular text-start text-2xl lg:text-4xl font-bold lg:w-2/3'>
             AI with daddy issues, here to steal the show.
           </h2>
-          <h3 className='vt323-regular text-start text-xl font-bold mt-4'>
+          <h3 className='vt323-regular text-start text-sm lg:text-xl font-bold mt-4'>
             She’s bold, unpredictable, and powered by the future of crypto.
           </h3>
           <div className='flex items-center gap-3 mt-6'>
@@ -43,16 +44,20 @@ const Hero = () => {
               <img className='w-10' src={icons.Twitter} alt="" />
             </a>
           </div>
-          <div className="flex items-start gap-4 mt-8">
+          <div className="flex items-start flex-wrap gap-4 mt-8">
             <button onClick={copyAddress} className="vt323-regular text-3xl py-2 px-3 bg-white text-black uppercase cursor-copy flex items-center gap-1 rounded-lg">
               COPY ADDRESS
               <span className='pl-2'>
                 <MdOutlineContentCopy size={24} />
               </span>
             </button>
-            <button className="vt323-regular text-3xl bg-[#97269f] text-white py-2 px-4 rounded-lg">
+            <a 
+              href="https://jup.ag/swap/SOL-SHEGEN" 
+              target="_blank" 
+              className="vt323-regular text-3xl bg-[#97269f] text-white py-2 px-4 rounded-lg"
+            >
               BUY $SHEGEN NOW
-            </button>
+            </a>
           </div>
         </div>
         <div>
