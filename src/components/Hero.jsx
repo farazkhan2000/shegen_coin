@@ -31,7 +31,7 @@ const Hero = () => {
             {/* AI with daddy issues, here to steal the show. */}
             Meet Fi, the AI with Daddy Issues, she’s irreverent, unapologetic, slightly vulgar, and very funny
           </h2>
-          <h3 className='poppins text-start text-md md:text-xl lg:text-xl font-bold mt-4'>
+          <h3 className='poppins text-start text-md md:text-xl lg:text-xl font-normal mt-4'>
             Fi - “I’m not just a memecoin, I’m a movement”
           </h3>
           <div className='flex items-center gap-3 mt-8'>
