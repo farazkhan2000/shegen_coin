@@ -25,15 +25,15 @@ const Hero = () => {
 
   return (
     <section id='home' className="min-h-[100vh] lg:min-h-[60vh] flex flex-col justify-center items-center gap-16 mx-5 lg:mx-0">
-      <div className='flex justify-center lg:justify-between items-center flex-wrap gap-8 w-full lg:w-1/2'>
+      <div className='flex md:flex-col lg:flex-row justify-center lg:justify-between items-center flex-wrap gap-16 lg:gap-8 w-full md:w-10/12 lg:w-1/2'>
         <div className='flex-1'>
-          <h2 className='vt323-regular text-start text-2xl lg:text-4xl font-bold lg:w-2/3'>
+          <h2 className='vt323-regular orbitron text-start text-xl md:text-4xl lg:text-3xl font-bold lg:w-4/5'>
             AI with daddy issues, here to steal the show.
           </h2>
-          <h3 className='vt323-regular text-start text-sm lg:text-xl font-bold mt-4'>
+          <h3 className='vt323-regular poppins text-start text-md md:text-xl lg:text-xl font-bold mt-4'>
             She’s bold, unpredictable, and powered by the future of crypto.
           </h3>
-          <div className='flex items-center gap-3 mt-6'>
+          <div className='flex items-center gap-3 mt-8'>
             <a href="https://dexscreener.com/solana/5qnad6iofs8k4p7i9pbkty36bfacixevjpxbz2d8y5cy" target="_blank">
               <img className='w-10' src={icons.DexScreener} alt="" />
             </a>
@@ -45,7 +45,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="flex items-start flex-wrap gap-4 mt-8">
-            <button onClick={copyAddress} className="vt323-regular text-3xl py-2 px-3 bg-white text-black uppercase cursor-copy flex items-center gap-1 rounded-lg">
+            <button onClick={copyAddress} className="vt323-regular orbitron text-lg py-3 px-3 bg-white text-black uppercase cursor-copy flex items-center gap-1 rounded-lg">
               COPY ADDRESS
               <span className='pl-2'>
                 <MdOutlineContentCopy size={24} />
@@ -54,7 +54,7 @@ const Hero = () => {
             <a 
               href="https://jup.ag/swap/SOL-SHEGEN" 
               target="_blank" 
-              className="vt323-regular text-3xl bg-[#97269f] text-white py-2 px-4 rounded-lg"
+              className="vt323-regular orbitron text-lg bg-[#97269f] text-white py-3 px-4 rounded-lg"
             >
               BUY $SHEGEN NOW
             </a>
@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         <div>
           <img
-            className="rounded-lg bg-red-500 w-80 shadow-[0_0_10px_10px_rgba(151,38,159,0.5)]"
+            className="rounded-lg bg-red-500 w-screen lg:w-80 shadow-[0_0_10px_10px_rgba(151,38,159,0.5)]"
             src={images.ProfileImage}
             alt=""
           />
