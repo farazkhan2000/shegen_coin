@@ -6,6 +6,7 @@ import CoinGecko from './coingecko.webp';
 import CMC from './cmc.svg';
 import Forbes from './forbes.png';
 import YahooFinance from './yahoo_finance.png';
+import Decrypt from './decrypt.png';
 
 export const icons = {
   DexScreener,
@@ -15,5 +16,6 @@ export const icons = {
   CoinGecko,
   CMC,
   Forbes,
-  YahooFinance
+  YahooFinance,
+  Decrypt
 }
